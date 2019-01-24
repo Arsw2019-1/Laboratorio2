@@ -30,7 +30,7 @@ public class main {
         nombre = entrada.nextLine();
 
         System.out.println("la entrada es+:" + nombre);
-//  http:google.com
+//  http://google.com
         URL pagina = new URL(nombre);
         FileWriter flwriter = null;
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(pagina.openStream()))) {
